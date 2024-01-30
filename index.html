@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- unsift for inserion at satrting in arrays
-       shift  dlt at start  --> 
 
+    <style>
+        div{
+            text-align: center;
+            border: 2px solid black;
+            /* padding: 4rem 0; */
+        }
+        .grand-parent{
+            width: 90vw;
+            height: 50vh;
+            background: orange;
+        }
 
-    <!-- push for insert last 
-    pop delet at last -->
+        .parent{
+            width: 80%;
+            height: 80%;
+            background-color: aqua;
+            margin: 0 auto;
+        }
 
-
+        .child{
+            width: 80%;
+            height: 80%;
+            background-color: brown;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    <!-- <script src="./arrays.js" ></script> -->
-    <script src="./string.js"></script>
-   <!-- <script src="./loop.js"></script>
- -->
+    <h1>Event Life Cycle</h1>
 
+    <div class="grand-parent">
+        Grand Parent
+        <div class="parent">
+            Parent
+            <div class="child">
+                Child
+            </div>
+        </div>
+    </div>
 
-   <!-- method of aary 
-   to lower charse
-   touppercase
-   trim()
-   trimstart
-   trimend
-   split
-   substring 
-replace
-replace call
-concat(),+
-
-str1.concat-->
+    <script src="script.js"></script>
 </body>
-<!-- for of use only aary -->
 </html>
